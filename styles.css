@@ -1,0 +1,76 @@
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* Etiqueta */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Campo de entrada */
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50; /* color normal */
+    color: rgb(25, 146, 60);
+    border: none;
+    cursor: pointer;
+}
+
+/*color al pasar el cursor*/
+button:hover {
+    background-color: #06610b; 
+}
+
+p::first-letter {
+font-size: 2em;
+color: #4CAF50;
+
+}
+h1::before{ 
+  color: #06610b;
+  content: "__"
+  
+  
+
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+
+
+input:focus {
+    border-color: #f80000;
+    background-color: #ff001e;
+    outline: none;
+}
+ul li:first-child {
+    color: #4CAF50;
+}
+
+
